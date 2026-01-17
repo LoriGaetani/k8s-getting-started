@@ -1,0 +1,13 @@
+cat <<EOF > .gitignore
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Kubernetes
+*.log
+
+# Docker
+*.tar
+EOF
